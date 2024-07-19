@@ -15,9 +15,17 @@
         header {
             text-align: center;
             padding: 10px 0;
+            margin-bottom: 20px;
         }
         h1 {
             margin-top: 0;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #1a73e8;
         }
         .section {
             background: #fff;
@@ -30,21 +38,24 @@
             margin-top: 0;
         }
         .section a {
-            color: #333;
-            text-decoration: none;
-        }
-        .section a:hover {
-            text-decoration: underline;
+            color: #1a73e8; /* Blue color */
+            text-decoration: underline; /* Underlined links */
         }
         .section ul {
             list-style-type: none;
             padding: 0;
         }
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
 
-<header>
+<header class="center">
+    <img src="path/to/your/photo.jpg" alt="Anubhav Rayamajhi" class="profile-pic">
     <h1>Anubhav Rayamajhi's GitHub Portfolio</h1>
     <p>Email: <a href="mailto:anubhavrayamajhi22@augustana.edu">anubhavrayamajhi22@augustana.edu</a></p>
     <p>GitHub: <a href="https://github.com/Dexterslith" target="_blank">Dexterslith</a></p>
@@ -114,19 +125,4 @@
     <p>Developed a data model using <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a> and <a href="https://keras.io/" target="_blank">Keras</a> in <a href="https://www.python.org/" target="_blank">Python</a> to test neural networks for solving integer linear programming (ILP), demonstrating their inefficiency.</p>
 
     <p><strong><a href="https://lark-coins.web.app/" target="_blank">Weather Gambling App</a></strong></p>
-    <p>Developed a Flutter-based weather betting app integrating <a href="https://firebase.google.com/" target="_blank">Firebase</a>, <a href="https://cloud.google.com/" target="_blank">Google Cloud Platform</a>, and <a href="https://openweathermap.org/api" target="_blank">Weather.io API</a>, enabling users to place bets on weather predictions with real-time tracking.</p>
-
-    <p><strong><a href="https://github.com/AugustanaCSC490Spring2024/Lark" target="_blank">Lark</a></strong></p>
-    <p>Worked on a project integrating Firebase and other technologies.</p>
-</section>
-
-<section class="section">
-    <h2>Technical Skills</h2>
-    <ul>
-        <li><strong>Programming Languages:</strong> <a href="https://www.python.org/" target="_blank">Python</a>, <a href="https://golang.org/" target="_blank">Golang</a>, <a href="https://www.oracle.com/java/" target="_blank">Java</a>, <a href="https://isocpp.org/" target="_blank">C++</a>, <a href="https://www.postgresql.org/" target="_blank">SQL</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a>, <a href="https://developer.apple.com/swift/" target="_blank">Swift</a>, <a href="https://dotnet.microsoft.com/" target="_blank">.NET</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a>, <a href="https://nodejs.org/" target="_blank">Node.js</a>, <a href="https://dart.dev/" target="_blank">Dart</a></li>
-        <li><strong>Technologies:</strong> <a href="https://cloud.google.com/" target="_blank">Google Cloud Platform (GCP)</a>, <a href="https://azure.microsoft.com/" target="_blank">Azure</a>, <a href="https://firebase.google.com/" target="_blank">Firebase</a>, <a href="https://flutter.dev/" target="_blank">Flutter</a>, <a href="https://developer.android.com/studio" target="_blank">Android Studio</a>, Data Modeling, Data Visualization, Data Editing</li>
-    </ul>
-</section>
-
-</body>
-</html>
+    <p>Developed a Flutter-based weather betting app integrating <a href="https://firebase.google.com/" target="_blank">Firebase</a>, <a href="https://cloud.google.com/" target="_blank">Google Cloud Platform</a>, and <a href="https://openweathermap.org/api" target="_blank">Weather.io API
